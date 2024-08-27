@@ -67,19 +67,21 @@ The SMOTE Logistic Regression model was selected for final predictions due to it
 
 The final model evaluation was performed using the following metrics:
 
-- **Accuracy:** 76%
-- **Precision:** 76%
-- **Recall:** 76%
-- **F1 Score:** 75%
+- **Accuracy:** 73%
+- **Precision:** 74%
+- **Recall:** 73%
+- **F1 Score:** 73%
 
 These scores reflect the model's effectiveness in correctly classifying the functionality of wells across all three categories. The balanced precision and recall indicate robustness in handling both majority and minority classes, critical for the stakeholders’ goal of prioritizing well repairs and resource allocation.
 
 ### Business Implications
-The final model’s predictions empower NGOs and government agencies to focus on repairing non-functional wells, maximizing the lifespan of existing infrastructure and optimizing resource utilization. This aligns with the broader objective of improving water access and ensuring sustainable water resource management in Tanzania.
+The final model’s predictions empower NGOs and government agencies to focus on repairing wellss needing repair and the non-functional wells, maximizing the lifespan of existing infrastructure and optimizing resource utilization. This aligns with the broader objective of improving water access and ensuring sustainable water resource management in Tanzania. However, the lower recall for non-functional wells indicates that some wells in need of urgent repair might be missed, suggesting an area for further improvement. Enhancing the model’s ability to identify these wells would further align it with our ultimate goal: ensuring that every community in Tanzania has access to clean and reliable water sources.
 
 ## Conclusion
 
-This project successfully developed a model that predicts the functionality status of water wells in Tanzania with a high degree of accuracy, precision, and recall. The SMOTE Logistic Regression model, in particular, provides a balanced approach to handling class imbalance, which is critical for making informed decisions about well maintenance and resource allocation.
+- This project developed a model that predicts the functionality status of water wells in Tanzania with a high degree of accuracy, precision, and recall. The SMOTE Logistic Regression model, in particular, provides a balanced approach to handling class imbalance, which is critical for making informed decisions about well maintenance and resource allocation. 
+
+- Although the model performs well, there is room for improvement, particularly in identifying non-functional wells. Future work could explore additional data sources, advanced modeling techniques, or further tuning to enhance the model’s performance and impact.
 
 ## Running the Notebook
 
